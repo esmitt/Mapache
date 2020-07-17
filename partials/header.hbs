@@ -22,7 +22,6 @@
                 <div class="header-dropdown-menu drop-content u-absolute">
                     {{!-- Social Media --}}
                     <div class="header-social-media drop-border js-social-media u-flex u-marginBottom30 u-paddingBottom20">
-                        {{#if @site.facebook}}<a href="{{facebook_url}}" title="Facebook {{@site.facebook}}" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-facebook"></use></svg></a>{{/if}}
                         {{#if @site.twitter}}<a href="{{twitter_url}}"  title="Twitter {{@site.twitter}}" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-twitter"></use></svg></a>{{/if}}
                     </div>
 
@@ -61,35 +60,6 @@
                 <svg class="icon icon--m icon--moon top2"><use xlink:href="#icon-moon"></use></svg>
                 <svg class="icon icon--m icon--sunny top2 u-hide"><use xlink:href="#icon-sunny"></use></svg>
             </div></li>
-
-            {{!-- Member Login --}}
-            {{#if @labs.members}}
-            <li class="header-dropdown-menu mp-member-login u-hide-before-lg dropdown u-relative">
-                <div class="hla u-relative"><svg class="icon icon--m top2"><use xlink:href="#icon-user"></use></svg></div>
-
-                <div class="drop-content account-menu u-absolute">
-                    {{#if @member}}
-                        <a href="/account/" class="login drop-border u-flexCenter u-flexContentBetween">
-                            <span class="u-fontSizeBase">{{t "Account"}}</span>
-                            <svg class="icon icon--m top2 rotate90"><use xlink:href="#icon-arrow-round"></use></svg>
-                        </a>
-                        <a href="#signout" class="login u-flexCenter u-flexContentBetween" data-members-signout>
-                            <span class="u-fontSizeBase">{{t "Log out"}}</span>
-                            <svg class="icon icon--m top2 rotate90"><use xlink:href="#icon-arrow-round"></use></svg>
-                        </a>
-                    {{else}}
-                        <a href="/signin/" class="login drop-border u-flexCenter u-flexContentBetween">
-                            <span class="u-fontSizeBase">{{t "Log in"}}</span>
-                            <svg class="icon icon--m top2 rotate90"><use xlink:href="#icon-arrow-round"></use></svg>
-                        </a>
-                        <a href="/signup/" class="login u-flexCenter u-flexContentBetween">
-                            <span class="u-fontSizeBase">{{t "Sign up"}}</span>
-                            <svg class="icon icon--m top2 rotate90"><use xlink:href="#icon-arrow-round"></use></svg>
-                        </a>
-                    {{/if}}
-                </div>
-            </li>
-            {{/if}}
 
             {{!-- Toggle Search --}}
             <li class="js-search-open search-toggle u-relative u-hide"><div class="hla"><svg class="icon icon--m top2"><use xlink:href="#icon-search"></use></svg></div></li>

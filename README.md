@@ -1,20 +1,10 @@
 # Mapache free theme for [Ghost](https://github.com/tryghost/ghost/)
 
 [![Ghost version](https://img.shields.io/badge/Ghost-3.x-brightgreen.svg)](https://github.com/TryGhost/Ghost)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/godofredoninja)
 
 > Minimalist and Elegant theme.
 
-Hi. I created this theme for ghost especially for you.
-It is available for free so you can use on your site. If you have any suggestions to improve the theme,  you can send me a tweet [@GodoFredoNinja](https://goo.gl/y3aivK)
-
-## If you have a :heart: heart and value my work. :pray: Please, help me with a small donation [Here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4H53Q4RTPSFQW&source=url) or [PayPal](https://www.paypal.me/godofredoninja). It'll help motivate me to update the theme with many improvements
-
-[![donate](./donate.gif)](https://www.paypal.me/godofredoninja)
-
-:arrow_right: If you still don't have a **Hosting for your Ghost**. Use [Digital Ocean](https://m.do.co/c/710a27a3b3de) using my [referral link]((https://m.do.co/c/710a27a3b3de)) and you will get free a **$100 in credit over 60 days** to use in [Digital Ocean]((https://m.do.co/c/710a27a3b3de)). This way you will also be helping me.
-
-![mapache theme for ghost](./screenshot.png)
+This theme was modified to remove login/signup, also the subscribe everywhere! Moreover is adjusted for a simplified version. **All description below is from original site.**
 
 ## Featured
 
@@ -858,4 +848,4 @@ Take a look at the [Prismjs Supported Language List](http://prismjs.com/#languag
 
 ## Copyright & License
 
-Copyright (c) 2017 - 2019 GodoFredoNinja - Released under the [GPLv3 license](LICENSE).
+Copyright (c) 2020 esmitt - Released under the [GPLv3 license](LICENSE).
